@@ -20,13 +20,13 @@ secretGenerator:
       - port=5432
       - database=awx
       - username=awx
-      - password=Ansible123!
+      - password=P0plar1935
       - type=managed
 
   - name: awx-admin-password
     type: Opaque
     literals:
-      - password=Ansible123!
+      - password=P0plar1935
 
   # Temporary workaround to suppress errors from AWX Operator 0.21.0.
   # Refer: https://github.com/kurokobo/awx-on-k3s/issues/74
